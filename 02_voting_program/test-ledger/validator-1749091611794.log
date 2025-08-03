@@ -1,0 +1,62 @@
+[0m[38;5;8m[[0m2025-06-05T02:46:51.794752231Z [0m[32mINFO [0m solana_test_validator[0m[38;5;8m][0m solana-validator 1.18.4 (src:356c6a38; feat:3352961542, client:SolanaLabs)
+[0m[38;5;8m[[0m2025-06-05T02:46:51.794795725Z [0m[32mINFO [0m solana_test_validator[0m[38;5;8m][0m Starting validator with: ArgsOs {
+        inner: [
+            "solana-test-validator",
+        ],
+    }
+[0m[38;5;8m[[0m2025-06-05T02:46:51.794833258Z [0m[33mWARN [0m solana_perf[0m[38;5;8m][0m CUDA is disabled
+[0m[38;5;8m[[0m2025-06-05T02:46:51.794844999Z [0m[32mINFO [0m solana_perf[0m[38;5;8m][0m AVX detected
+[0m[38;5;8m[[0m2025-06-05T02:46:51.794848580Z [0m[32mINFO [0m solana_perf[0m[38;5;8m][0m AVX2 detected
+[0m[38;5;8m[[0m2025-06-05T02:46:51.798518730Z [0m[32mINFO [0m solana_faucet::faucet[0m[38;5;8m][0m Faucet started. Listening on: 0.0.0.0:9900
+[0m[38;5;8m[[0m2025-06-05T02:46:51.798555143Z [0m[32mINFO [0m solana_faucet::faucet[0m[38;5;8m][0m Faucet account address: FiBfPyHpkEUgNMVEHLUkn47nNvaWcxHS9KZ914kdDbRx
+[0m[38;5;8m[[0m2025-06-05T02:46:51.799540427Z [0m[32mINFO [0m solana_validator::admin_rpc_service[0m[38;5;8m][0m started admin rpc service!
+[0m[38;5;8m[[0m2025-06-05T02:46:51.801403444Z [0m[32mINFO [0m solana_test_validator[0m[38;5;8m][0m Feature for 41tVp5qR1XwWRt5WifvtSQyuxtqQWJgEK8w91AtBqSwP deactivated
+[0m[38;5;8m[[0m2025-06-05T02:46:51.802356848Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m identity pubkey: HSw6aPqoaf5ucceYi2dmKLuFYJATewEQc3wLMVvBYHPL
+[0m[38;5;8m[[0m2025-06-05T02:46:51.802376812Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m vote account pubkey: BLGSm2z1yBAuqLn3S3r6mh4M4ZCxzvaNayChMPxKsquY
+[0m[38;5;8m[[0m2025-06-05T02:46:51.802392365Z [0m[33mWARN [0m solana_core::validator[0m[38;5;8m][0m authorized voter: BLGSm2z1yBAuqLn3S3r6mh4M4ZCxzvaNayChMPxKsquY
+[0m[38;5;8m[[0m2025-06-05T02:46:51.804523248Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m Initializing sigverify...
+[0m[38;5;8m[[0m2025-06-05T02:46:51.804569470Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m Initializing sigverify done.
+[0m[38;5;8m[[0m2025-06-05T02:46:51.805543284Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m Cleaning accounts paths..
+[0m[38;5;8m[[0m2025-06-05T02:46:51.805882972Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m Cleaning accounts paths done. clean_accounts_paths took 313us
+[0m[38;5;8m[[0m2025-06-05T02:46:51.806179285Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m Cleaning orphaned account snapshot directories..
+[0m[38;5;8m[[0m2025-06-05T02:46:51.806269155Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m Cleaning orphaned account snapshot directories done. clean_orphaned_account_snapshot_dirs took 75us
+[0m[38;5;8m[[0m2025-06-05T02:46:51.806290311Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m Geyser plugin: accounts_update_notifier: false, transaction_notifier: false, entry_notifier: false
+[0m[38;5;8m[[0m2025-06-05T02:46:51.806305275Z [0m[32mINFO [0m solana_core::system_monitor_service[0m[38;5;8m][0m Starting SystemMonitorService
+[0m[38;5;8m[[0m2025-06-05T02:46:51.806484997Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m loading ledger from "test-ledger"...
+[0m[38;5;8m[[0m2025-06-05T02:46:51.810346647Z [0m[32mINFO [0m solana_core::validator[0m[38;5;8m][0m genesis hash: ErWyM2yaGXdQpkzRuVLCnhBpQpfM7DHhQpT8FqQkjSAo
+[0m[38;5;8m[[0m2025-06-05T02:46:51.810464260Z [0m[32mINFO [0m solana_ledger::blockstore[0m[38;5;8m][0m Maximum open file descriptors: 1048576
+[0m[38;5;8m[[0m2025-06-05T02:46:51.810473996Z [0m[32mINFO [0m solana_ledger::blockstore[0m[38;5;8m][0m Opening blockstore at "test-ledger/rocksdb"
+[0m[38;5;8m[[0m2025-06-05T02:46:51.915238129Z [0m[32mINFO [0m solana_ledger::blockstore[0m[38;5;8m][0m Opening blockstore done; blockstore open took 104ms
+[0m[38;5;8m[[0m2025-06-05T02:46:51.918868978Z [0m[32mINFO [0m solana_ledger::bank_forks_utils[0m[38;5;8m][0m Initializing bank snapshots dir: test-ledger/snapshot
+[0m[38;5;8m[[0m2025-06-05T02:46:51.918973226Z [0m[32mINFO [0m solana_runtime::snapshot_bank_utils[0m[38;5;8m][0m Loading bank from snapshot dir: test-ledger/snapshot/36104
+[0m[38;5;8m[[0m2025-06-05T02:46:51.923403363Z [0m[32mINFO [0m solana_runtime::snapshot_bank_utils[0m[38;5;8m][0m rebuild storages from snapshot dir took 4ms
+[0m[38;5;8m[[0m2025-06-05T02:46:51.923458809Z [0m[32mINFO [0m solana_runtime::snapshot_bank_utils[0m[38;5;8m][0m Rebuilding bank from snapshot test-ledger/snapshot/36104
+[0m[38;5;8m[[0m2025-06-05T02:46:51.939432723Z [0m[32mINFO [0m solana_accounts_db::accounts_db[0m[38;5;8m][0m Background account hasher has started
+[0m[38;5;8m[[0m2025-06-05T02:46:51.957968243Z [0m[32mINFO [0m solana_accounts_db::accounts_db[0m[38;5;8m][0m rent_collector: RentCollector { epoch: 0, epoch_schedule: EpochSchedule { slots_per_epoch: 432000, leader_schedule_slot_offset: 432000, warmup: false, first_normal_epoch: 0, first_normal_slot: 0 }, slots_per_year: 78892314.984, rent: Rent { lamports_per_byte_year: 3480, exemption_threshold: 2.0, burn_percent: 50 } }
+[0m[38;5;8m[[0m2025-06-05T02:46:52.750903804Z [0m[32mINFO [0m solana_accounts_db::accounts_db[0m[38;5;8m][0m accounts data len: 1714969
+[0m[38;5;8m[[0m2025-06-05T02:46:52.751050293Z [0m[32mINFO [0m solana_metrics::metrics[0m[38;5;8m][0m metrics disabled: environment variable not found
+[0m[38;5;8m[[0m2025-06-05T02:46:52.751201654Z [0m[32mINFO [0m solana_metrics::metrics[0m[38;5;8m][0m datapoint: generate_index overall_us=812212i total_us=1058i scan_stores_us=303i insertion_time_us=26i min_bin_size=0i max_bin_size=0i storage_size_storages_us=46i index_flush_us=785833i total_rent_paying=0i amount_to_top_off_rent=0i total_items_including_duplicates=249i total_items=0i accounts_data_len_dedup_time_us=434i total_duplicate_slot_keys=45i populate_duplicate_keys_us=6342i total_slots=16i slots_to_clean=16i copy_data_us=4i
+[0m[38;5;8m[[0m2025-06-05T02:46:52.751246515Z [0m[32mINFO [0m solana_metrics::metrics[0m[38;5;8m][0m datapoint: reconstruct_accountsdb_from_fields() accountsdb-notify-at-start-us=812423i
+thread 'main' panicked at runtime/src/bank.rs:1845:9:
+assertion `left == right` failed: Bank snapshot genesis creation time does not match genesis.bin creation time.The snapshot and genesis.bin might pertain to different clusters
+  left: 1749032635
+ right: 1749091600
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/82e1608dfa6e0b5569232559e3d385fea5a93112/library/std/src/panicking.rs:645:5
+   1: core::panicking::panic_fmt
+             at /rustc/82e1608dfa6e0b5569232559e3d385fea5a93112/library/core/src/panicking.rs:72:14
+   2: core::panicking::assert_failed_inner
+   3: core::panicking::assert_failed
+   4: solana_runtime::bank::Bank::new_from_fields
+   5: solana_runtime::serde_snapshot::bank_from_streams
+   6: solana_runtime::snapshot_bank_utils::bank_from_snapshot_dir
+   7: solana_ledger::bank_forks_utils::load_bank_forks
+   8: solana_core::validator::Validator::new
+   9: solana_test_validator::TestValidator::start
+  10: solana_test_validator::TestValidatorGenesis::start_with_mint_address_and_geyser_plugin_rpc
+  11: solana_test_validator::main
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+[0m[38;5;8m[[0m2025-06-05T02:46:52.942648775Z [0m[32mINFO [0m solana_accounts_db::accounts_db[0m[38;5;8m][0m Background account hasher is stopping because: receiving on an empty and disconnected channel
+[0m[38;5;8m[[0m2025-06-05T02:46:52.942702769Z [0m[32mINFO [0m solana_accounts_db::accounts_db[0m[38;5;8m][0m Background account hasher has stopped
+terminate called without an active exception
